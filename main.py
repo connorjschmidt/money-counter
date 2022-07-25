@@ -13,9 +13,9 @@ droneCost = 100
 print("Balance: ")
 
 for i in range(1,3,1):
-  balance += (i*income)
-  print("Week {}: You have ${}.". format(i,balance))
+    balance += (i*income)
+    print("Week {}: You have ${}.". format(i,balance))
 
 for i in range(3,5,1):
-  balance += (i*income-droneCost)
-  print("Week {}: You have ${}.".format(i,balance))
+    balance += (i*income-droneCost)
+    print("Week {}: You have ${}.".format(i,balance))
